@@ -10,7 +10,6 @@
     position: fixed;
     background-color:rgb(16, 15, 15);
     align-items: center;
-    
 }
 .logo{
     background-color:rgb(10, 9, 9);
@@ -18,12 +17,7 @@
     color: rgb(240, 221, 221);
      margin: 0 0 0 30px;
      font-size: 20px;
-  
-
-
-
 }
-
 .navlist{  
     width: 35%;
     background-color:rgb(15, 15, 15);
@@ -33,28 +27,16 @@
     text-transform: uppercase;
     font-size: 12px;
     color:#ffff;
-    
-    
-    
-    
-
 }
 .navlist li{
     list-style-type: none;
-    
-    
 }
 .navlist li a{
     color: rgb(253, 248, 248);
     text-decoration: none;
-
 }
-
 nav .navlist li a:hover{
    color: blue;
-    
-    
-
 }
 .rightnav{
     width: 55%;
@@ -71,27 +53,19 @@ nav .navlist li a:hover{
     border-radius: 17px;
     color: white;
     font-size: 15px;
-    
-    
-   }
-
+}
 .burger{
    display: none;
    position: absolute;
    right: 5%;
    top: 15px;
 }
-
-
 .line{
     width: 33px;
     background-color:white;
     height: 2px;
     margin: 2px;
 }
-
-
-
 .insta{
     height: 30px;
     background-color: rgb(49, 150, 173);
@@ -100,32 +74,24 @@ nav .navlist li a:hover{
     justify-content: center;
     align-items: center;
 }
-
 .ins{
-    
     text-decoration: none;
     align-items: center;
     color: black;
 }
-  
 .first-section{
     display: flex;
    justify-content: space-around;
    height: 460px; ;
    background-color: rgb(16, 16, 16);
    color: #ffffff;
-   
-
 }
-
-
 .first-btn{
     padding: 10px 30px 10px 30px;
     background-color: rgb(54, 54, 134);
     border-radius: 30px;
     border-color: rgb(240, 14, 14);
 }
-  
 input,textarea{
     display: block;
     margin-top:20px ;
@@ -136,12 +102,10 @@ input,textarea{
     width: 300px;
     border: 2px;
     border: black;
-   
 }
 .first-pra{
     font-size: 24px;
 }
-
 .first-box{
   width: 300px;
   height: 350px;
@@ -155,19 +119,16 @@ input,textarea{
     text-align: center;
     margin: 20px 0px 0px 0px;
 }
-
 .first-boxtwo{
     width: 300px;
     height: 350px;
     text-align: center;
     margin: 20px 0px 0px 0px;
 }
-
 .shazam{
     width: 200px;
     height: 300px;
 }
-
 .Second-section{
     display: flex;
     justify-content: space-around;
@@ -200,12 +161,6 @@ input,textarea{
 }
 
 
-
-
-
-
-
-
 @media screen and (max-width: 830px){
    .navlist{
     flex-direction: column;
@@ -214,21 +169,15 @@ input,textarea{
     width: 100%;
     color: #ffffff;
 }
-
- .navlist li{
+.navlist li{
     margin: 2vh;
-   
-    
  }
  .navlist li:hover{
     background-color: orange;
     padding: 3px 6px 3px 6px;
     color: rgb(247, 245, 245);
  }
-
- 
-
-   .navbar{
+.navbar{
     flex-direction: column;
     background-color:rgb(10, 10, 10);
     width: 100%;
@@ -260,10 +209,6 @@ input,textarea{
 .line{
     background-color: rgb(255, 255, 255);
 }
-
-
-
-
 .first-section{
       height: 1400px;
       width: 100%;
@@ -278,16 +223,11 @@ input,textarea{
 .first-boxtwo{
     width: 100%;
 }
-
 .Second-section{
     height: 1400px;
     width: 100%;
     flex-direction: column;
 }
-
-
-
-
 .h-nav{
     height: 70px;
     width: 100%;
@@ -295,10 +235,6 @@ input,textarea{
 .v-class{
     visibility: hidden;
 }
-
-
-
-
 input,textarea{
     display: block;
     margin-top:20px ;
@@ -309,8 +245,12 @@ input,textarea{
     width: 300px;
     
 }
+.third-section{
+    height: 1400px;
+    width: 100%;
+    flex-direction: column;
 
-
+}
 }
 
 
