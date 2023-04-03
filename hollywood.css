@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-
 }
 .navbar{
     display: flex;
@@ -159,7 +158,19 @@ input,textarea{
     align-items: center;
     color: #ffffff;
 }
-
+.main-box{
+    display: flex;
+    height: 400px;
+    justify-content: space-evenly;
+    background-color: rgb(10, 10, 10);
+    color: #ffffff;
+}
+.main-pra{
+    font-size: 20px;
+}
+.main-pra2{
+    font-size: 20px;
+}
 
 @media screen and (max-width: 830px){
    .navlist{
@@ -189,19 +200,15 @@ input,textarea{
     left: 4%;
     top: 34%;
  }
-
-
 .rightnav{
     background-color: rgb(7, 7, 7);
       display: flex;
       justify-content: center;
       width: 100%;
       flex-direction: column;
-       
 }
 .nav-btn{
    width: 50%;
-
 }
 .burger{
    display: block;
@@ -243,31 +250,17 @@ input,textarea{
     margin-right: auto;
      padding: 6px;
     width: 300px;
-    
 }
 .third-section{
     height: 1400px;
     width: 100%;
     flex-direction: column;
+}
+.main-box{
+   flex-direction: column;
+    height: 460px;
+    background-color: rgb(16, 16, 16);
+    color: #ffffff;
+}
 
 }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
