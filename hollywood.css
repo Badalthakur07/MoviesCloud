@@ -171,6 +171,9 @@ input,textarea{
 .main-pra2{
     font-size: 20px;
 }
+a{
+text-decoration: none;
+}
 
 @media screen and (max-width: 830px){
    .navlist{
@@ -255,6 +258,7 @@ input,textarea{
     height: 1400px;
     width: 100%;
     flex-direction: column;
+    padding: 0px 0px 10px 0px;
 }
 .main-box{
    flex-direction: column;
@@ -262,5 +266,15 @@ input,textarea{
     background-color: rgb(16, 16, 16);
     color: #ffffff;
 }
-
+.main-pra{
+ text-align: center;
 }
+.main-pra2{
+    text-align: center;
+}
+footer{
+    padding: 10px 0px 10px 0px;
+    background-color: rgb(13, 13, 13);
+}
+}
+
