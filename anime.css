@@ -1,7 +1,14 @@
 *{
-    padding: 0;
-    margin: 0;
-
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(9, 9, 9);
+    color: rgb(255, 255, 255);
+}
+.btn{
+    padding: 3px 6px 3px 6px;
+    margin: 10px;
+    background: rgb(37, 66, 231);
 }
 .navbar{
     display: flex;
@@ -10,7 +17,6 @@
     position: fixed;
     background-color:rgb(16, 15, 15);
     align-items: center;
-    
 }
 .logo{
     background-color:rgb(10, 9, 9);
@@ -19,7 +25,6 @@
      margin: 0 0 0 30px;
      font-size: 20px;
 }
-
 .navlist{  
     width: 35%;
     background-color:rgb(15, 15, 15);
@@ -30,23 +35,15 @@
     font-size: 12px;
     color:#ffff;
 }
-
 .navlist li{
     list-style-type: none;
-    
-    
 }
 .navlist li a{
     color: rgb(253, 248, 248);
     text-decoration: none;
-
 }
-
 nav .navlist li a:hover{
    color: blue;
-    
-    
-
 }
 .rightnav{
     width: 55%;
@@ -63,61 +60,32 @@ nav .navlist li a:hover{
     border-radius: 17px;
     color: white;
     font-size: 15px;
-    
-    
-   }
-
+}
 .burger{
    display: none;
    position: absolute;
    right: 5%;
    top: 15px;
 }
-
-
 .line{
     width: 33px;
     background-color:white;
     height: 2px;
     margin: 2px;
 }
-
-
-
 .insta{
     height: 30px;
-    background-color: rgb(117 199 217);
+    background-color: rgb(49, 150, 173);
     padding: 80px 0px 10px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .ins{
-    
     text-decoration: none;
     align-items: center;
     color: black;
 }
-  
-.first-section{
-    display: flex;
-   justify-content: space-around;
-   height: 700px; ;
-   background-color: rgb(16, 16, 16);
-   color: #ffffff;
-   
-
-}
-
-
-.first-btn{
-    padding: 10px 30px 10px 30px;
-    background-color: rgb(54, 54, 134);
-    border-radius: 30px;
-    border-color: rgb(240, 14, 14);
-}
-  
 input,textarea{
     display: block;
     margin-top:20px ;
@@ -128,86 +96,43 @@ input,textarea{
     width: 300px;
     border: 2px;
     border: black;
-   
+    background-color: #ffffff;
 }
-.first-pra{
-    text-align: center;
-}
-
-.first-box{
-  width: 300px;
-  height: 350px;
-  text-align: center;
-
-}
-.first-boxone{
-    width: 300px;
-    height: 350px;
-    text-align: center;
-    
-}
-
-.first-boxtwo{
-    width: 300px;
-    height: 350px;
-    text-align: center;
-    
-}
-
-
-
-.Second-section{
+.main-box{
     display: flex;
-    justify-content: space-around;
-    height: 700px;
-    background-color: rgb(16, 16, 16);
-   color: #ffffff;
-}
-.third-section{
-    display: flex;
-    justify-content: space-around;
-    height: 700px;
-    background-color: rgb(16, 16, 16);
-   color: #ffffff;
-}
-.forth-section{
-    display: flex;
-    justify-content: space-around;
-    height: 700px;
-    background-color: rgb(16, 16, 16);
-   color: #ffffff;
-}
-
-
-
-
-
-
-@media screen and (max-width: 800px){
+    height: 400px;
+    justify-content: space-evenly;
+    background-color: rgb(10, 10, 10);
+    color: #ffffff;
+    }
+    .main-pra{
+    font-size: 20px;
+    }
+    .main-pra2{
+    font-size: 20px;
+    }
+    a{
+    text-decoration: none;
+    }
+@media screen and (max-width: 830px){
     .navlist{
      flex-direction: column;
      text-align: center;
-     background-color: rgb(10, 10, 10);
-     width: 50%;
-     
+     background-color: rgb(4, 4, 4);
+     width: 100%;
+     color: #ffffff;
  }
- 
-  .navlist li{
+ .navlist li{
      margin: 2vh;
-    
-     
   }
   .navlist li:hover{
      background-color: orange;
      padding: 3px 6px 3px 6px;
-     color: #ffffff;
+     color: rgb(247, 245, 245);
   }
- 
-  
- 
-    .navbar{
+ .navbar{
      flex-direction: column;
-     background-color:rgb(8, 7, 7);
+     background-color:rgb(10, 10, 10);
      width: 100%;
      display: flex;
      align-items: center;
@@ -217,24 +142,21 @@ input,textarea{
      left: 4%;
      top: 34%;
   }
- 
- 
  .rightnav{
-     background-color: rgb(2, 2, 2);
+     background-color: rgb(7, 7, 7);
        display: flex;
        justify-content: center;
-       width: 50%;
-        
+       width: 100%;
+       flex-direction: column;
  }
  .nav-btn{
-    width: 100%;
- 
+    width: 50%;
  }
  .burger{
     display: block;
  }
  .line{
-     background-color: rgb(251, 248, 248);
+     background-color: rgb(255, 255, 255);
  }
  .h-nav{
     height: 70px;
@@ -243,9 +165,30 @@ input,textarea{
 .v-class{
     visibility: hidden;
 }
+input,textarea{
+    display: block;
+    margin-top:20px ;
+    margin-left:auto ;
+    margin-bottom:20px ;
+    margin-right: auto;
+     padding: 6px;
+    width: 300px;
+}
+.main-box{
+    flex-direction: column;
+     height: 460px;
+     background-color: rgb(16, 16, 16);
+     color: #ffffff;
+ }
+ .main-pra{
+  text-align: center;
+ }
+ .main-pra2{
+     text-align: center;
+ }
+ footer{
+     padding: 10px 0px 10px 0px;
+     background-color: rgb(13, 13, 13);
+ }
  
 }
- 
- 
- 
- 
