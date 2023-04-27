@@ -103,7 +103,7 @@ input,textarea{
     border: black;
 }
 .first-pra{
-    font-size: 24px;
+    font-size: 17px;
 }
 .first-box{
   width: 300px;
@@ -186,6 +186,11 @@ text-decoration: none;
 padding: 4px;
 margin: 4px;
 }
+.info{
+    text-align: center;
+    color: rgb(230, 59, 59);
+    
+}
 @media screen and (max-width: 830px){
    .navlist{
     flex-direction: column;
@@ -231,7 +236,7 @@ margin: 4px;
     background-color: rgb(255, 255, 255);
 }
 .first-section{
-      height: 1400px;
+      height: 1470px;
       width: 100%;
       flex-direction: column;
 }
@@ -245,7 +250,7 @@ margin: 4px;
     width: 100%;
 }
 .Second-section{
-    height: 1400px;
+    height: 1470px;
     width: 100%;
     flex-direction: column;
 }
@@ -266,16 +271,17 @@ input,textarea{
     width: 300px;
 }
 .third-section{
-    height: 1400px;
+    height: 1470px;
     width: 100%;
     flex-direction: column;
     padding: 0px 0px 10px 0px;
 }
 .main-box{
    flex-direction: column;
-    height: 460px;
+    height: 520px;
     background-color: rgb(16, 16, 16);
     color: #ffffff;
+    padding: 10px;
 }
 .main-pra{
  text-align: center;
@@ -288,6 +294,4 @@ footer{
     background-color: rgb(13, 13, 13);
 }
 }
-
-
 
