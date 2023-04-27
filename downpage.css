@@ -1,7 +1,6 @@
 *{
     padding: 0;
     margin: 0;
-
 }
 .navbar{
     display: flex;
@@ -9,21 +8,14 @@
     width: 100%;
     position: fixed;
     background-color:rgb(16, 15, 15);
-    align-items: center;
-    
-}
+    align-items: center;}
 .logo{
     background-color:rgb(10, 9, 9);
     width: 10%;
     color: rgb(240, 221, 221);
      margin: 0 0 0 30px;
      font-size: 20px;
-  
-
-
-
 }
-
 .navlist{  
     width: 35%;
     background-color:rgb(15, 15, 15);
@@ -33,26 +25,16 @@
     text-transform: uppercase;
     font-size: 12px;
     color:#ffff;
-    
-    
-    
 }
 .navlist li{
     list-style-type: none;
-    
-    
 }
 .navlist li a{
     color: rgb(253, 248, 248);
     text-decoration: none;
-
 }
-
 nav .navlist li a:hover{
    color: blue;
-    
-    
-
 }
 .rightnav{
     width: 55%;
@@ -69,27 +51,19 @@ nav .navlist li a:hover{
     border-radius: 17px;
     color: white;
     font-size: 15px;
-    
-    
-   }
-
+}
 .burger{
    display: none;
    position: absolute;
    right: 5%;
    top: 15px;
 }
-
-
 .line{
     width: 33px;
     background-color:white;
     height: 2px;
     margin: 2px;
 }
-
-
-
 .insta{
     height: 30px;
     background-color: rgb(49, 150, 173);
@@ -98,7 +72,6 @@ nav .navlist li a:hover{
     justify-content: center;
     align-items: center;
 }
-
 .ins{
     
     text-decoration: none;
@@ -108,11 +81,9 @@ nav .navlist li a:hover{
 .first-section{
     display: flex;
    justify-content: space-around;
-   height: 460px; ;
+   height: 420px; ;
    background-color: rgb(16, 16, 16);
    color: #ffffff;
-   
-
 }
 input,textarea{
     display: block;
@@ -124,12 +95,10 @@ input,textarea{
     width: 300px;
     border: 2px;
     border: black;
-   
 }
 .first-pra{
-    font-size: 24px;
+    font-size: 17px;
 }
-
 .first-box{
   width: 300px;
   height: 350px;
@@ -143,14 +112,12 @@ input,textarea{
     text-align: center;
     margin: 20px 0px 0px 0px;
 }
-
 .first-boxtwo{
     width: 300px;
     height: 350px;
     text-align: center;
     margin: 20px 0px 0px 0px;
 }
-
 .last-footer{
     display: flex;
     height: 9vh;
@@ -172,12 +139,20 @@ input,textarea{
 }
 .info{
     color: rgb(248, 8, 8);
+    text-align: center;
 }
 .shazam{
     width: 200px;
     height: 300px;
 }
-
+.my-section{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(16, 16, 16);
+   color: #ffffff; 
+}
 @media screen and (max-width: 830px){
     .navlist{
      flex-direction: column;
@@ -186,21 +161,15 @@ input,textarea{
      width: 100%;
      color: #ffffff;
  }
- 
-  .navlist li{
+ .navlist li{
      margin: 2vh;
-    
-     
-  }
-  .navlist li:hover{
+}
+.navlist li:hover{
      background-color: orange;
      padding: 3px 6px 3px 6px;
      color: rgb(247, 245, 245);
-  }
- 
-  
- 
-    .navbar{
+}
+.navbar{
      flex-direction: column;
      background-color:rgb(10, 10, 10);
      width: 100%;
@@ -212,17 +181,14 @@ input,textarea{
      left: 4%;
      top: 34%;
   }
- 
- 
  .rightnav{
      background-color: rgb(7, 7, 7);
        display: flex;
        justify-content: center;
        width: 100%;
        flex-direction: column;
-        
- }
- .nav-btn{
+}
+.nav-btn{
     width: 50%;
  
  }
@@ -232,10 +198,6 @@ input,textarea{
  .line{
      background-color: rgb(255, 255, 255);
  }
- 
- 
- 
- 
  .first-section{
        height: 1400px;
        width: 100%;
@@ -269,5 +231,10 @@ input,textarea{
 }
 .mainbox{
     flex-direction: column;
+}
+.my-section{
+    flex-direction: column;
+    height: 700px;
+    background-color: rgb(9, 9, 9);
 }
 }
