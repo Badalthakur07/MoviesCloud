@@ -84,6 +84,7 @@ nav .navlist li a:hover{
    height: 460px; ;
    background-color: rgb(16, 16, 16);
    color: #ffffff;
+   width: 100%;
 }
 .first-btn{
     padding: 10px 30px 10px 30px;
@@ -103,7 +104,7 @@ input,textarea{
     border: black;
 }
 .first-pra{
-    font-size: 17px;
+    font-size: 15px;
 }
 .first-box{
   width: 300px;
@@ -141,6 +142,15 @@ input,textarea{
     height: 460px;
     background-color: rgb(16, 16, 16);
    color: #ffffff;
+}
+.my-section{
+    display: flex;
+    justify-content: space-around;
+    height: 460px;
+    width: 100%;
+    background-color: rgb(16, 16, 16);
+   color: #ffffff; 
+
 }
 .forth-section{
     display: flex;
@@ -293,5 +303,9 @@ footer{
     padding: 10px 0px 10px 0px;
     background-color: rgb(13, 13, 13);
 }
-}
 
+.my-section{
+    height: 700px;
+    flex-direction: column;
+}
+}
