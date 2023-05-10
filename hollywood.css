@@ -113,30 +113,29 @@ input,textarea{
 }
 .first-pra{
     font-size: 10px;
-   
 }
 .first-box{
-  width: 150px;
-  height: 200px;
+    width: 200px;
+    height: 250px;
   text-align: center;
   margin: 20px 0px 0px 0px;
 
 }
 .first-boxone{
-    width: 150px;
-    height: 200px;
+    width: 200px;
+    height: 250px;
     text-align: center;
     margin: 20px 0px 0px 0px;
 }
 .first-boxtwo{
-    width: 150px;
-  height: 200px;
+    width: 200px;
+    height: 250px;
     text-align: center;
     margin: 20px 0px 0px 0px;
 }
 .shazam{
-    width: 100px;
-    height: 150px;
+    width: 140px;
+    height: 170px;
 }
 .Second-section{
     display: flex;
