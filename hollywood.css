@@ -112,7 +112,7 @@ input,textarea{
     border: black;
 }
 .first-pra{
-    font-size: 10px;
+    font-size: 12px;
 }
 .first-box{
     width: 200px;
@@ -134,8 +134,8 @@ input,textarea{
     margin: 20px 0px 0px 0px;
 }
 .shazam{
-    width: 140px;
-    height: 170px;
+    width: 160px;
+    height: 200px;
 }
 .Second-section{
     display: flex;
