@@ -28,6 +28,8 @@ document.addEventListener('DOMContentLoaded', () => {
       });
   });
 });
+
+
   
 const container = document.querySelector('.first-section')
     let limit = 4 ;
