@@ -315,6 +315,7 @@ margin: 4px;
 .first-section{
       width: 100%;
       flex-direction: column;
+     height:100vh;
 }
 .first-box{
   width: 100%;
